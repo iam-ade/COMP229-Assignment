@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   const name1 = {
     myName: 'Adekunle Oduneye',
-    missionStatement: "My mission is to add value to any task or project I a part of in a way that would benefit the world immensely." 
+    missionStatement: "My mission is to add value to any task or project I am part of in a way that would benefit the world immensely." 
   }
   res.render('index', { title: 'Home', names:name1});
 });
@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 router.get('/home', function(req, res, next) {
   const name1 = {
     myName: 'Adekunle Oduneye',
-    missionStatement: "My mission is to add value to any task or project I a part of in a way that would benefit the world immensely." 
+    missionStatement: "My mission is to add value to any task or project I am part of in a way that would benefit the world immensely." 
   }
   res.render('index', { title: 'Home', names:name1});
 });
@@ -23,7 +23,7 @@ router.get('/home', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   const name1 = {
     myName: 'Adekunle Oduneye',
-    missionStatement: "My mission is to add value to any task or project I a part of in a way that would benefit the world immensely." 
+    missionStatement: "My mission is to add value to any task or project I am part of in a way that would benefit the world immensely." 
   }
   res.render('about', { title: 'About Me',  names:name1});
 });
