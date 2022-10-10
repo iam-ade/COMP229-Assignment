@@ -5,9 +5,21 @@
 
   
   <!-- Main COntent -->
-  <main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+  <main>
+    <div class="container">
+        <div class="col col-md-12">
+            <h2>Welcome to my Home page</h2>
+            <p>I am <%=names.myName%>. I welcome you to my home page. Here I would expose you to the skills have I developed over the years, the services I could offer you, projects I have been part of and how you can contact me. Let me show you around. Make a choice from below</p>
+            <h3>Navigator</h3>
+            <ul>
+                <p><a href="about">A little about me</a></p>
+                <p><a href="project">My projects</a></p>
+                <p><a href="service">My skills</a></p>
+                <p><a href="contact">Lets work together</a></p>
+            </ul>
+            <h3>Mission Statement</h3>
+            <p><%=names.missionStatement%></p>
+        </div>
     </div>
   </main>
 

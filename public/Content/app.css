@@ -1,1 +1,16 @@
 /* Custom css goes here */
+
+body { 
+    background-color: whitesmoke;
+    /*font-size: 26px*/;    
+
+
+}
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+
+}
